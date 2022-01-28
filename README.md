@@ -1,4 +1,4 @@
-# Cryptocurrency Comparison API https://eric-nobrega.github.io/Cryptocurrency-Comparison-Fetch-API/
+# CRYPSON - Cryptocurrency Comparison API https://eric-nobrega.github.io/Cryptocurrency-Comparison-Fetch-API/
 #### The purpose of this project is to practice JavaScript and API fetching.
 
 #### This website uses the Cryptocurrency Search API from Coinranking.com. This API has the data of many popular cryptocurrency coins, simply search any two coins you would like to compare and the API will retrieve some stats about them.
