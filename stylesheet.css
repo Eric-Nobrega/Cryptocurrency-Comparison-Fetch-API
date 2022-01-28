@@ -1,0 +1,158 @@
+html,
+body {
+  background-color: rgb(18, 20, 22);
+  height: 100vh;
+  width: 100wh;
+  padding: 0%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: #2f2f2f;
+}
+
+/* Ribbon CSS (Top Page) */
+.ribbon {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(71, 71, 146),
+    rgb(60, 108, 149)
+  );
+  display: flex;
+  height: max-content;
+}
+
+.ribbon .ribbonText {
+  color: rgb(248, 248, 248);
+  padding-left: 1%;
+}
+
+/*Search Bars and Submit Button*/
+
+#searchBars {
+  height: 125px;
+  width: 100wh;
+}
+
+#searchBarOne {
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: flexbox;
+  float: left;
+  margin-left: 20%;
+  justify-content: center;
+}
+
+#searchBarTwo {
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: flexbox;
+  float: right;
+  margin-right: 20%;
+  justify-content: center;
+}
+
+.search {
+  border-radius: 25px;
+}
+
+.button {
+  border-radius: 25px;
+}
+
+/*API Result Cards*/
+#apiResultContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  text-align: center;
+  height: 500px;
+}
+
+#apiResultOne {
+  border-radius: 25px;
+  flex: 0 0 50%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(71, 71, 146),
+    rgb(60, 108, 149)
+  );
+  margin-right: 10px;
+}
+
+#apiResultTwo {
+  border-radius: 25px;
+  flex: 1;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(71, 71, 146),
+    rgb(60, 108, 149)
+  );
+  margin-left: 5px;
+}
+
+.resultTitle {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+.resultDiv {
+  font-size: 25px;
+  width: 200px;
+  text-align: center;
+  font-family: "Montserrat-thick", sans-serif;
+  padding: 10px;
+  margin-left: 100px;
+  margin-bottom: 1%;
+  height: 75px;
+  text-decoration: underline;
+}
+
+.resultDivValue {
+  font-size: 25px;
+  border-radius: 25px;
+  width: 50%;
+  height: 75px;
+  text-align: center;
+  float: right;
+  font-family: "Montserrat-thick", sans-serif;
+  margin-left: 10px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-right: 15px;
+}
+
+
+/*Extra Text Styling*/
+#introText {
+  text-align: center;
+  border-radius: 25px;
+  border: thin solid white;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(71, 71, 146),
+    rgb(60, 108, 149)
+  );
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: 150px;
+  width: 600px;
+}
+
+.awaitingInput {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  margin-top: 30%;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: rgb(60, 108, 149);
+  color: white;
+}
